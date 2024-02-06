@@ -16,4 +16,11 @@ model User {
   name  String
   email String
 }
- ̰
+
+model Profile{
+  id Int @id @default(autoincrement())
+  fname String
+  lname String
+  mobileNo Int
+  expertise String
+}
