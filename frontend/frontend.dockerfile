@@ -1,2 +1,4 @@
 # DOCKER FILE
 FROM NEXT
+
+RUN npm install
