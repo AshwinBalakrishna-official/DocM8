@@ -1,7 +1,7 @@
 import React from 'react'
 
 interface Card{
-    id: number;
+    Id: number;
     name: string;
     email : string;
 
@@ -9,7 +9,11 @@ interface Card{
 
 const CardCompoenent:React.FC<{props: Card}>= ({props}) => {
   return (
-    <div>CardCompoenent {props.id} </div>
+    <>
+        <div>ID : {props.Id} </div>
+        <div>Name : {props.name} </div>
+        <div>Email : {props.email}</div>
+    </>
   )
 }
 
