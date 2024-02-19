@@ -1,6 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
+This is a full stack application which demonstrates the use of docker containers for both front and backend application
 
 First, run the development server:
 
