@@ -11,7 +11,7 @@ pnpm dev
 # or
 bun dev
 ```
-AFTER THIS
+AFTER THIS CHECK FOR THE RUNNING SERVER AT 3000 PORT
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
