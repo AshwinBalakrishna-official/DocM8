@@ -13,6 +13,7 @@ bun dev
 ```
 AFTER THIS CHECK FOR THE RUNNING SERVER AT 3000 PORT. 
 FULLY DOCKERIZED THE FO APPLICATION
+LAST COMMIT
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
