@@ -87,7 +87,7 @@ export default function Home() {
             placeholder="Email"
             value={newUser.email}
             onChange={(e) => setNewUser({ ...newUser, email: e.target.value })}
-            className="mb-2 w-full p-2 border border-gray-300 rounded text-black"
+            className="mb-2 w-full p-2 border border-gray-300 rounded"
           />
           <button type="submit" className="w-full p-2 text-white bg-blue-500 rounded hover:bg-blue-600">
             Add User
@@ -100,19 +100,19 @@ export default function Home() {
             placeholder="User ID"
             value={updateUser.id}
             onChange={(e) => setUpdateUser({ ...updateUser, id: e.target.value })}
-            className="mb-2 w-full p-2 border border-gray-300 rounded text-black"
+            className="mb-2 w-full p-2 border border-gray-300 rounded"
           />
           <input
             placeholder="New Name"
             value={updateUser.name}
             onChange={(e) => setUpdateUser({ ...updateUser, name: e.target.value })}
-            className="mb-2 w-full p-2 border border-gray-300 rounded text-black"
+            className="mb-2 w-full p-2 border border-gray-300 rounded"
           />
           <input
             placeholder="New Email"
             value={updateUser.email}
             onChange={(e) => setUpdateUser({ ...updateUser, email: e.target.value })}
-            className="mb-2 w-full p-2 border border-gray-300 rounded text-black"
+            className="mb-2 w-full p-2 border border-gray-300 rounded"
           />
           <button type="submit" className="w-full p-2 text-white bg-green-500 rounded hover:bg-green-600">
             Update User
